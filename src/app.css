@@ -1,0 +1,88 @@
+body{
+     background: url("https://t4.ftcdn.net/jpg/04/33/16/71/240_F_433167186_bnAhGZ4fANlmExoSXw4EagCsfVbmAPIc.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+  
+ 
+}
+
+img{
+    height : 230px ;
+    width : 240px ;
+    border-radius: 10px 10px 0 0;
+}
+
+.heading{
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    color: rgb(186, 190, 193);
+    font-size: larger;
+    text-shadow: 3px 2px rgb(70, 68, 68);
+}
+
+
+.mainBox{
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width : 100%;
+    height : 500px;
+    margin: 50px 0 100px 0;
+   
+}
+.eachBox{
+    margin:0 50px 30px 50px;
+   /* //display : inline-block; */
+    border: 1.5px solid rgba(128 , 128 , 128 , 0.5);
+    border-radius: 10px 10px 0 0;
+    height : 330px;
+    background-color: rgb(216, 219, 222);
+    margin-top:30px
+}
+
+.textMov{
+    padding: 0px 5px 5px 5px;
+}
+
+.button {
+    height: 16px;
+    width: 90px;
+    color: rgb(200, 27, 11);
+    font-size: small;
+    margin: -6px 0 0 0;
+    border:  1.3px solid rgba(70, 70, 73, 0.5);
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+}
+
+.ori{
+    font-size: small;
+    letter-spacing: 2px;
+    color: grey;
+}
+
+.main{
+    margin: -9px 0 0 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.8px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.8px;
+}
+
+
+
+
+
+
